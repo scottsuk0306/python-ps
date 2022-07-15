@@ -1,5 +1,5 @@
 #!usr/bin/env python3
-from collections import defaultdict, deque
+from collections import defaultdict, deque, Counter
 from heapq import heappush, heappop
 from itertools import permutations, accumulate
 import sys
@@ -12,7 +12,7 @@ inum = lambda: int(input().strip())
 imap = lambda: map(int,input().strip().split())
 ilist = lambda: list(map(int, input().strip().split()))
  
-sys.setrecursionlimit(1000000)
+#sys.setrecursionlimit(1000000)
 mod = 1000000007
 
 def matrix(n, m):
@@ -23,6 +23,6 @@ def go(k):
 
 def main():
     return 0
- 
+    
 if __name__ == "__main__":
   main()
