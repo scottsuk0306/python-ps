@@ -13,13 +13,13 @@ istr = lambda: input().strip()
 inum = lambda: int(input().strip())
 imap = lambda: map(int,input().strip().split())
 ilist = lambda: list(map(int, input().strip().split()))
- 
-# sys.setrecursionlimit(1000000)
+
+#sys.setrecursionlimit(1000000)
 mod = 1000000007
 
 def matrix(n, m):
     return [[0] * (m) for _ in range(n)]
- 
+
 def go(k):
     return 0
 
@@ -37,6 +37,6 @@ def primes(n):
 def main():
     a, b, c = imap()
     print(a+b+c)
-           
+
 if __name__ == "__main__":
     main()
