@@ -1,7 +1,7 @@
 #!usr/bin/env python3
 from collections import defaultdict, deque, Counter
 from heapq import heappush, heappop
-from itertools import permutations, accumulate
+from itertools import permutations, combinations
 import sys
 import math
 import bisect
@@ -21,8 +21,11 @@ def matrix(n, m):
 def go(k):
     return 0
 
-def main():
-    return 0
+def solve():
+    return        
     
 if __name__ == "__main__":
-  main()
+    t = 1
+    while t:
+        solve()
+        t -= 1
